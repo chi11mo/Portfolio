@@ -1,0 +1,28 @@
+.square {
+    width: 140px;
+    height: 80px;
+    background: #037CA9;
+
+}
+.item{
+
+}
+.containerMainBoxes{
+   order : 2;
+
+}
+
+body {
+    background: black;
+    animation: color-me-in 5s; /* other keywords like "infinite alternate" can be useful here */
+}
+@keyframes color-me-in {
+    /* You could think of as "step 1" */
+    0% {
+        background: orange;
+    }
+    /* You could think of as "step 2" */
+    100% {
+        background: black;
+    }
+}
